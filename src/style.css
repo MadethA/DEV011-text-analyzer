@@ -1,22 +1,22 @@
-body {background-color:beige;
+body {background-color:rgb(219, 240, 233);
 
 }
 header h1{ text-align: center;
     font-family: "Lato",serif;
     font-size: 2em;
-    color: black;
+    color: rgb(246, 240, 240);
+    background-color: #2c2180;
 }
 
-.resultado {
-    width: 150px;
+.resultado {width: 150px;
     padding: 10px;
     margin: 20px;
     border: 1px solid #333;
     background-color: #f4f4f4;
     text-align: center;
     line-height: 25px;
-    font-family: Arial, sans-serif;
-    border-radius: 10px
+    font-family: Segoe UI;
+    border-radius: 20px
 }
 
 ul {
@@ -47,7 +47,7 @@ textarea[name="user-input"]{
     transform: scale(0.98);
     /* Scaling button to 0.98 to its original size */
 }
-footer {
+footer {font-family: monospace;
     text-align:right;
-    padding: 10px;
+    padding: 8px;
 }
