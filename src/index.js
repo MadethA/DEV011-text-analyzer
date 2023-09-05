@@ -7,7 +7,10 @@ function limpiar() {
     document.body.querySelector('[data-testid="word-count"]').innerHTML ="Palabras = 0 "
     document.body.querySelector('[data-testid="character-count"]').innerHTML ="Caracteres = 0"
     document.body.querySelector('[data-testid="character-no-spaces-count"]').innerHTML="Caracteres sin espacio = 0"
-    document.body.querySelector('[data-testid="number-count"]').innerHTML="Numeros = 0"
+    document.body.querySelector('[data-testid="number-count"]').innerHTML="Números = 0"
+    document.body.querySelector('[data-testid="word-length-average"]').innerHTML="Promedio de longitud = 0"
+    document.body.querySelector('[data-testid="number-sum"]').innerHTML="Suma de números = 0"
+
 }
 
 // Función que se ejecuta en el evento 'keyup' del <textarea>
