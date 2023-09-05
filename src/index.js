@@ -3,7 +3,7 @@ import analyzer from './analyzer.js';
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
 
 function limpiar() {
-    document.body.querySelector('[name="user-input"]').value=" "
+    document.body.querySelector('[name="user-input"]').value=""
     document.body.querySelector('[data-testid="word-count"]').innerHTML ="Palabras = 0 "
     document.body.querySelector('[data-testid="character-count"]').innerHTML ="Caracteres = 0"
     document.body.querySelector('[data-testid="character-no-spaces-count"]').innerHTML="Caracteres sin espacio = 0"
@@ -50,3 +50,4 @@ function keyup(){
 //DOM
 document.getElementById("reset-button").addEventListener("click",limpiar)
 document.body.querySelector('[name="user-input"]').addEventListener("keyup",keyup)
+limpiar()
